@@ -1,0 +1,18 @@
+# inherit qcom init
+import init.qcom.rc
+
+on boot
+
+    ## VIBRATOR
+        chmod 0660 /sys/class/timed_output/vibrator/amp
+
+    ## SENSOR
+	mkdir /data/amit 0777 ami304d ami304d
+	chmod 0666 /data/amit/AMI306_Config.ini
+        chmod 0666 /data/amit/AMI306_Config2.ini
+
+service ami304d /system/bin/ami304d
+    class main
+    user compass
+    group system
+
