@@ -5,37 +5,37 @@
 
 ## RIL
 
-lib/libgstk_exp.so
-lib/libqmi.so
-lib/libpbmlib.so
-lib/libmmgsdilib.so
-lib/liblge_security.so
+lib/libgstk_exp.so 
+lib/libqmi.so 
+lib/libpbmlib.so 
+lib/libmmgsdilib.so 
+lib/liblge_security.so 
 lib/libril-qcril-hook-oem.so 
 lib/libdsm.so 
-lib/liboncrpc.so
+lib/liboncrpc.so 
 lib/libril-qc-qmi-1.so 
 lib/libnv.so 
-lib/libauth.so
+lib/libauth.so 
 lib/libwms.so 
+lib/libgsl.so 
 lib/libdiag.so 
-lib/liboem_rapi.so
-lib/libgsdi_exp.so
-lib/libril-qc-1.so
+lib/liboem_rapi.so 
+lib/libgsdi_exp.so 
+lib/libril-qc-1.so 
 lib/liblgeat.so 
 lib/libcm.so 
-lib/libqueue.so 
-lib/liblgerft.so 
+lib/libqueue.so
+lib/liblgerft.so
 lib/libdss.so 
-lib/libbcmwl.so 
-lib/libwmsts.so
+lib/libbcmwl.so
+lib/libwmsts.so 
 lib/libdsutils.so
 lib/libidl.so 
-lib/liblgdrm.so 
-lib/libril.so
-etc/flex/flex.xml
-bin/qmuxd
+lib/liblgdrm.so
+lib/libril.so 
+bin/qmuxd 
+etc/flex/flex.xml 
 bin/atd
-lib/libdsutils.so
 etc/wl/rtecdc.bin
 etc/wl/rtecdc-apsta.bin
 
@@ -53,8 +53,7 @@ etc/firmware/BCM43291A0_003.001.013.0141.0153.hcd
 
 ## HAL
 bin/ami304d
-lib/hw/sensors.c660.so
-
+lib/hw/sensors.muscat.so
 
 ## EGL
 lib/egl/libEGL_adreno200.so
@@ -88,4 +87,3 @@ lib/libOmxVidEnc.so
 lib/libOmxWmaDec.so
 lib/libOmxWmvDec.so
 lib/libmm-adspsvc.so
-

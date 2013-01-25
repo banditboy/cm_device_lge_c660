@@ -18,15 +18,15 @@ PRODUCT_COPY_FILES += \
 
 # p690 init
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init.c660.rc:root/init.c660.rc \
-    $(LOCAL_PATH)/ueventd.c660.rc:root/ueventd.c660.rc
+    $(LOCAL_PATH)/init.muscat.rc:root/init.muscat.rc \
+    $(LOCAL_PATH)/ueventd.muscat.rc:root/ueventd.muscat.rc
 
 # Wi-Fi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nvram.txt:system/etc/wl/nvram.txt \
     $(LOCAL_PATH)/configs/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
-# P690 Audio
+# C660 Audio
 PRODUCT_PACKAGES += \
     audio_policy.c660 \
     audio.primary.c660 \
